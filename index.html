@@ -1,9 +1,253 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sneha Ann Reji</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sneha Ann Reji — Software Engineer, MSc Applied Computing student, and researcher in AI and legal NLP.">
+  <title>Sneha Ann Reji | Software Engineer & AI Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hello! I am Sneha Ann Reji.</p>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">SAR<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">SOFTWARE ENGINEER · AI RESEARCHER · GRADUATE STUDENT</p>
+        <h1>Sneha Ann<br><span>Reji.</span></h1>
+        <p class="hero-text">
+          I build software and AI applications with a focus on practical engineering,
+          large language models, and legal-domain NLP.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#experience">Explore my work <span>→</span></a>
+          <a class="button secondary" href="mailto:sneha@cs.toronto.edu">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍 Toronto, Canada</span>
+          <span>🎓 University of Toronto</span>
+          <a href="https://www.linkedin.com/in/sneha-ann-reji/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-label">01 / ABOUT</p>
+          <h2>Engineering software with an <em>AI-first</em> mindset.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I am a software engineer and MSc Applied Computing student with experience
+            building enterprise applications, APIs, and Generative AI solutions.
+          </p>
+          <p>
+            My research interests center on large language models, Retrieval Augmented
+            Generation, Chain-of-Thought prompting, and applications of AI in the legal domain.
+          </p>
+          <div class="stats">
+            <div><strong>2+</strong><span>Years<br>Industry Experience</span></div>
+            <div><strong>2</strong><span>Research<br>Publications</span></div>
+            <div><strong>9.81</strong><span>BTech<br>CGPA</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <p class="section-label">02 / EXPERIENCE</p>
+        <div class="section-heading">
+          <h2>Where I've worked</h2>
+          <p>From enterprise banking systems to developer tools and Google Ads.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">AUG 2024 — AUG 2026</div>
+            <div class="timeline-card">
+              <div class="role-top"><h3>Software Engineer</h3><span>Wells Fargo</span></div>
+              <ul>
+                <li>Worked on deposits applications for Small Business bankers and customers, reducing application completion time by 75%, increasing automated account opening rates, and improving user experience using Java and Spring.</li>
+                <li>Implemented a Generative AI solution using Python and LangChain to automate updates to banker procedure manuals based on changes to Small Business lending platforms.</li>
+                <li>Worked on an internal tool that helps Product Managers and Project Managers create, view, and modify JIRA stories and tasks using Python, FastAPI, TypeScript, and React.</li>
+              </ul>
+              <div class="tags"><span>Java</span><span>Spring</span><span>Python</span><span>LangChain</span><span>FastAPI</span><span>React</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">MAY 2023 — AUG 2023</div>
+            <div class="timeline-card">
+              <div class="role-top"><h3>Software Engineering Intern</h3><span>Google</span></div>
+              <ul>
+                <li>Enhanced the Google Ads UI using Java and Dart to allow Ads Customer Admins to independently add service accounts, simplifying account management and removing the need for customer support intervention.</li>
+              </ul>
+              <div class="tags"><span>Java</span><span>Dart</span><span>Google Ads</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">03 / PROJECTS</p>
+        <div class="section-heading">
+          <h2>Selected project</h2>
+          <p>Research-driven work at the intersection of LLMs and legal NLP.</p>
+        </div>
+
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <div>
+            <p class="project-date">JAN 2024 — MAY 2024</p>
+            <h3>Improving Performance of LLMs in Legal Domain with RAG and CoT</h3>
+            <p>
+              Worked on a methodology that improves accuracy of LLMs in legal domain tasks
+              using Retrieval Augmented Generation and Chain-of-Thought prompting.
+              The project was coded in Python using LangChain.
+            </p>
+            <div class="tags"><span>Python</span><span>LangChain</span><span>RAG</span><span>CoT</span><span>LLMs</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section section-dark">
+      <div class="container">
+        <p class="section-label">04 / RESEARCH & PUBLICATIONS</p>
+        <div class="section-heading">
+          <h2>Research in legal AI</h2>
+          <p>Exploring adaptive prompting, RAG, and language-model performance in the legal domain.</p>
+        </div>
+
+        <div class="publication-list">
+          <a class="publication" href="https://doi.org/10.1007/s10506-025-09459-5" target="_blank" rel="noopener">
+            <span class="pub-year">2025</span>
+            <div>
+              <h3>Advancing prompt-based language models in the legal domain: adaptive strategies and research challenges</h3>
+              <p>Springer · Artificial Intelligence and Law</p>
+              <span class="read-link">Read publication ↗</span>
+            </div>
+          </a>
+          <a class="publication" href="https://doi.org/10.1109/SPICES62143.2024.10779705" target="_blank" rel="noopener">
+            <span class="pub-year">2024</span>
+            <div>
+              <h3>Enhancing LLM Performance on Legal Textual Entailment with Few-Shot CoT-based RAG</h3>
+              <p>IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems</p>
+              <span class="read-link">Read publication ↗</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <p class="section-label">05 / EDUCATION</p>
+        <div class="education-grid">
+          <article class="education-card featured">
+            <p class="edu-date">SEP 2026 — DEC 2027 · EXPECTED</p>
+            <h3>MSc in Applied Computing</h3>
+            <p class="institution">University of Toronto · Department of Computer Science</p>
+            <p class="course-label">Relevant courses</p>
+            <div class="tags"><span>Deep Learning & Neural Networks</span><span>Advanced Data Systems</span></div>
+          </article>
+          <article class="education-card">
+            <p class="edu-date">DEC 2020 — AUG 2024</p>
+            <h3>BTech, Computer Science & Engineering (Hons)</h3>
+            <p class="institution">National Institute of Technology, Tiruchirappalli</p>
+            <div class="cgpa">9.81 <small>CGPA</small></div>
+            <p class="course-label">Relevant courses</p>
+            <div class="tags"><span>Data Structures</span><span>Algorithms</span><span>AI & ML</span><span>Data Analytics</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="section section-alt">
+      <div class="container">
+        <p class="section-label">06 / AWARDS & LEADERSHIP</p>
+        <div class="awards-grid">
+          <article>
+            <span class="award-icon">✦</span>
+            <h3>Vector Scholarship in AI</h3>
+            <p>Recipient · 2026</p>
+          </article>
+          <article>
+            <span class="award-icon">✦</span>
+            <h3>President's Medal & Gold Medal</h3>
+            <p>Highest CGPA in overall BTech and CSE Department · 2024</p>
+          </article>
+          <article>
+            <span class="award-icon">✦</span>
+            <h3>Teaching Assistant, Software Design</h3>
+            <p>Leading weekly tutorials covering Java, Git, Clean Architecture, and design patterns.</p>
+          </article>
+          <article>
+            <span class="award-icon">✦</span>
+            <h3>Toastmasters International</h3>
+            <p>Vice President Education & Division Secretary · 2022–2024</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container skills-layout">
+        <div>
+          <p class="section-label">07 / TECHNICAL SKILLS</p>
+          <h2>Tools I work with</h2>
+        </div>
+        <div class="skill-groups">
+          <div><h3>Programming Languages</h3><p>Python · C · C++ · SQL · Java · JavaScript · TypeScript · Dart</p></div>
+          <div><h3>Engineering Software</h3><p>Android Studio · Unity</p></div>
+          <div><h3>AI / Research</h3><p>Large Language Models · RAG · Chain-of-Thought · LangChain · Legal NLP</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <p class="section-label">08 / CONTACT</p>
+        <h2>Let's build something<br><em>meaningful.</em></h2>
+        <p>I'm always open to conversations about software engineering, AI research, and interesting projects.</p>
+        <div class="contact-links">
+          <a href="mailto:sneha@cs.toronto.edu">sneha@cs.toronto.edu</a>
+          <a href="tel:+14165808284">+1 416 580 8284</a>
+          <a href="https://www.linkedin.com/in/sneha-ann-reji/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>© <span id="year"></span> Sneha Ann Reji</span>
+      <span>Built with HTML, CSS & JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
